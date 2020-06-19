@@ -1,7 +1,7 @@
 console.log('Single responsibility principle');
 
 console.log('------ Bad practice ------')
-class Worker {
+class Contractor {
   cook() {
     console.log('Cook tasty food')
   }
@@ -11,7 +11,7 @@ class Worker {
   }
 }
 
-const contractor = new Worker();
+const contractor = new Contractor();
 contractor.cook()
 contractor.fix()
 
