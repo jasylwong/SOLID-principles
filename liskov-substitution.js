@@ -1,4 +1,4 @@
-// redo
+// Check this
 
 console.log('Liskov substitution principle');
 

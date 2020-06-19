@@ -24,7 +24,7 @@ class Chef extends Worker {
 }
 
 class Plumber {
-  cook() {
+  fix() {
     return 'Fix water leak'
   }
 }
@@ -33,7 +33,7 @@ const chef = new Chef();
 const plumber = new Plumber();
 
 chef.cook();
-plumber.cook();
+plumber.fix();
 
 
 

@@ -34,3 +34,7 @@ class Chef {
     return 'Bake a cake'
   }
 }
+
+const chef = new Chef()
+chef.fry()
+chef.bake()
