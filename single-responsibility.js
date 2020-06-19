@@ -17,7 +17,7 @@ contractor.fix()
 
 console.log('')
 console.log('------ Good practice ------')
-class Chef extends Worker {
+class Chef {
   cook() {
     return 'Cook tasty food'
   }
